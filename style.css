@@ -1,0 +1,44 @@
+body{
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 600px;
+    display: flex;
+    margin: 0;
+
+}
+
+#left-side{
+border-style: solid;
+border-color: red;
+display: flex;
+border: 0;
+}
+
+.left-container{
+    display: flex;
+    height: 900px;
+    width: 600px;
+    border-style: solid;
+    border-color: red;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+}
+
+.left-text{
+    color: white;
+    background-color: rgb(212, 56, 56, 0.5);
+    width: 600px;
+    text-align: center;
+    font-size: 36px;
+    position: relative; top: -100px;
+
+}
+#right-side{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: green;
+    color: rgb(0, 0, 0);
+}
